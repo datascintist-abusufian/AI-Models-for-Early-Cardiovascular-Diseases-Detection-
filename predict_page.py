@@ -15,7 +15,7 @@ def main():
     logo = "logo Heart.jpeg"
     st.image(logo, use_column_width=True, caption="Your Company Logo")
     st.title('AI-Models-for-Early-Cardiovascular-Diseases-Prediction')
-    st.write("""### We need patient data to predict on""")
+    st.write("""### We need patient data to predict on...Author-Md Abu Sufian""")
 
     # Get input from user
     age = st.slider('Age', 18, 100, 50)
