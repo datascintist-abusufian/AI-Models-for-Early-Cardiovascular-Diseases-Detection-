@@ -9,9 +9,16 @@ with open(model_filename, 'rb') as file:
 
 print("hello")
 def main():
-    st.title('Heart Disease Prediction')
+    # Load and display the logo
+    logo = "logo Heart.jpeg"
+    st.image(logo, use_column_width=True, caption="Your Company Logo")
 
+    st.title('AI-Models-for-Early-Cardiovascular-Diseases-Prediction')
     st.write("""### We need patient data to predict on""")
+
+# Call the main function
+if __name__ == "__main__":
+    main()
 
     age = st.slider('Age', 18, 100, 50)
     sex_options = ['Male', 'Female']
