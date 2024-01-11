@@ -13,7 +13,7 @@ def main():
 
     # Display logo and title
     logo = "logo Heart.jpeg"
-    st.image(logo, use_column_width=True, caption=" Cardiovascular")
+    st.image(logo, use_column_width=True, caption="Cardiovascular")
     st.title('AI-Models-for-Early-Cardiovascular-Diseases-Prediction')
     st.write("""### We need patient data to predict on...Author-Md Abu Sufian""")
 
