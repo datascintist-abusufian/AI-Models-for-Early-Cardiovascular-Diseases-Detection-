@@ -65,3 +65,20 @@ This project is licensed under the MIT License.
 
 If you have any questions or collaboration opportunities, please reach out to 2017901635@chd.edu.cn.
 
+## Figures
+
+### Cardiomyocyte Ageing Infographic
+
+A publication-ready scientific infographic comparing young vs. aged cardiomyocytes is available in `figures/cardiomyocyte_ageing.svg`. Open `figures/cardiomyocyte_ageing_viewer.html` in a browser to view it.
+
+The infographic illustrates key molecular and structural hallmarks of cardiomyocyte ageing, including:
+
+- Mitochondrial dysfunction (fragmentation, damaged cristae)
+- Increased ROS / oxidative stress
+- Impaired proteostasis
+- Reduced autophagy
+- Ca²⁺ dysregulation
+- DNA damage and telomere attrition (γH2AX foci)
+- Cellular senescence signalling (p16INK4a / p21)
+- Hypertrophy and increased stiffness / fibrosis
+
