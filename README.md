@@ -57,6 +57,12 @@ Expertise in AI for healthcare, cardiovascular imaging, and disease prediction.
 	•	Integration with wearable device data.
 	•	Addition of survival analysis models.
 
+📊 Figures
+
+### PhD Research Gantt Chart
+
+A professional academic Gantt chart for the 4-year PhD research project "AI-Enabled Multi-Modal Cardiac MRI Analysis for Early Detection and Risk Prediction of Heart Failure" is available in `figures/phd_gantt_chart.svg`. Open `figures/phd_gantt_chart_viewer.html` in a browser to view it.
+
 📝 License
 
 This project is licensed under the MIT License.
