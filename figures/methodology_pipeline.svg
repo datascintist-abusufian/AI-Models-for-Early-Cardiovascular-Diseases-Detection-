@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1620 900" width="1620" height="900">
+<defs>
+  <filter id="shadow" x="-5%" y="-5%" width="115%" height="125%">
+    <feDropShadow dx="2" dy="3" stdDeviation="3.5" flood-color="#00000030"/>
+  </filter>
+  <filter id="glow">
+    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#E6394655"/>
+  </filter>
+  <marker id="arr" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#455A64"/>
+  </marker>
+  <linearGradient id="bggrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#EEF2F7"/>
+    <stop offset="100%" style="stop-color:#E3ECF5"/>
+  </linearGradient>
+  <linearGradient id="titlegrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#0D2137"/>
+    <stop offset="50%" style="stop-color:#1A3A5C"/>
+    <stop offset="100%" style="stop-color:#0D2137"/>
+  </linearGradient>
+  <linearGradient id="h1" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#1565C0"/>
+    <stop offset="100%" style="stop-color:#1976D2"/>
+  </linearGradient>
+  <linearGradient id="h2" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#0277BD"/>
+    <stop offset="100%" style="stop-color:#0288D1"/>
+  </linearGradient>
+  <linearGradient id="h3" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#6A1B9A"/>
+    <stop offset="100%" style="stop-color:#7B1FA2"/>
+  </linearGradient>
+  <linearGradient id="h4" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#4527A0"/>
+    <stop offset="100%" style="stop-color:#512DA8"/>
+  </linearGradient>
+  <linearGradient id="h5" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#00695C"/>
+    <stop offset="100%" style="stop-color:#00796B"/>
+  </linearGradient>
+  <linearGradient id="h6" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#E65100"/>
+    <stop offset="100%" style="stop-color:#F57C00"/>
+  </linearGradient>
+  <linearGradient id="h7" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#1B5E20"/>
+    <stop offset="100%" style="stop-color:#2E7D32"/>
+  </linearGradient>
+  <linearGradient id="h8" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#B71C1C"/>
+    <stop offset="100%" style="stop-color:#C62828"/>
+  </linearGradient>
+  <linearGradient id="mri1" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#1a1a2e"/>
+    <stop offset="45%" style="stop-color:#4a4a8a"/>
+    <stop offset="100%" style="stop-color:#1a1a3a"/>
+  </linearGradient>
+  <linearGradient id="mri2" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#0a1628"/>
+    <stop offset="45%" style="stop-color:#1a3a6a"/>
+    <stop offset="100%" style="stop-color:#0a2040"/>
+  </linearGradient>
+  <linearGradient id="mri3" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#1a0808"/>
+    <stop offset="45%" style="stop-color:#8b1a1a"/>
+    <stop offset="100%" style="stop-color:#1a0808"/>
+  </linearGradient>
+  <linearGradient id="mri4" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#0a1a0a"/>
+    <stop offset="45%" style="stop-color:#1a5a2a"/>
+    <stop offset="100%" style="stop-color:#0a1a0a"/>
+  </linearGradient>
+  <linearGradient id="heatmap" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#1565C0"/>
+    <stop offset="30%" style="stop-color:#4CAF50"/>
+    <stop offset="60%" style="stop-color:#FFEB3B"/>
+    <stop offset="100%" style="stop-color:#B71C1C"/>
+  </linearGradient>
+</defs>
+<rect width="1620" height="900" fill="url(#bggrad)"/>
+<rect x="0" y="0" width="1620" height="62" fill="url(#titlegrad)"/>
+<text x="810" y="23" font-family="Georgia,serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="0.5">AI-Driven Methodology Pipeline for Cardiovascular Disease Detection</text>
+<text x="810" y="42" font-family="Georgia,serif" font-size="11.5" fill="#A8C4E0" text-anchor="middle">Technical Implementation: Multi-Modal Cardiac MRI &#8594; Feature Extraction &#8594; Fusion &#8594; Dual-Head Prediction &#8594; Validated Clinical Output</text>
+<text x="810" y="57" font-family="Georgia,serif" font-size="10" fill="#7AAACF" font-style="italic" text-anchor="middle">Abu Sufian &#8212; Chang'an University &#183; Department of AI &amp; Medical Imaging &#183; UCL PhD Proposal 2025&#8211;2026</text>
+<!-- STAGE 1: Data Input and Cohort Assembly -->
+<rect x="14" y="74" width="369" height="220" rx="7" fill="white" filter="url(#shadow)"/>
+<rect x="14" y="74" width="369" height="33" rx="7" fill="url(#h1)"/>
+<rect x="14" y="92" width="369" height="15" fill="url(#h1)"/>
+<text x="26" y="95" font-family="Arial,sans-serif" font-size="10" fill="white" font-weight="bold">&#9312; DATA INPUT &amp; COHORT ASSEMBLY</text>
+<rect x="24" y="112" width="56" height="46" rx="3" fill="url(#mri1)"/>
+<ellipse cx="52" cy="132" rx="15" ry="14" fill="none" stroke="#aaaacc" stroke-width="1.5"/>
+<ellipse cx="52" cy="132" rx="7" ry="8" fill="#444488" opacity="0.7"/>
+<text x="52" y="167" font-family="Arial,sans-serif" font-size="7.5" fill="#1565C0" text-anchor="middle" font-weight="bold">T1 Map</text>
+<rect x="90" y="112" width="56" height="46" rx="3" fill="url(#mri2)"/>
+<ellipse cx="118" cy="132" rx="15" ry="14" fill="none" stroke="#aaaacc" stroke-width="1.5"/>
+<ellipse cx="118" cy="132" rx="7" ry="8" fill="#444488" opacity="0.7"/>
+<text x="118" y="167" font-family="Arial,sans-serif" font-size="7.5" fill="#1565C0" text-anchor="middle" font-weight="bold">T2 Map</text>
+<rect x="156" y="112" width="56" height="46" rx="3" fill="url(#mri3)"/>
+<ellipse cx="184" cy="132" rx="15" ry="14" fill="none" stroke="#aaaacc" stroke-width="1.5"/>
+<ellipse cx="184" cy="132" rx="7" ry="8" fill="#444488" opacity="0.7"/>
+<text x="184" y="167" font-family="Arial,sans-serif" font-size="7.5" fill="#1565C0" text-anchor="middle" font-weight="bold">LGE</text>
+<rect x="222" y="112" width="56" height="46" rx="3" fill="url(#mri4)"/>
+<ellipse cx="250" cy="132" rx="15" ry="14" fill="none" stroke="#aaaacc" stroke-width="1.5"/>
+<ellipse cx="250" cy="132" rx="7" ry="8" fill="#444488" opacity="0.7"/>
+<text x="250" y="167" font-family="Arial,sans-serif" font-size="7.5" fill="#1565C0" text-anchor="middle" font-weight="bold">Cine</text>
+<rect x="288" y="112" width="56" height="46" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+<text x="316" y="139" font-family="Arial,sans-serif" font-size="20" text-anchor="middle">&#128203;</text>
+<text x="316" y="167" font-family="Arial,sans-serif" font-size="7.5" fill="#1565C0" text-anchor="middle" font-weight="bold">Clinical</text>
+<rect x="22" y="173" width="353" height="16" rx="3" fill="#E3F2FD"/>
+<text x="198" y="185" font-family="Georgia,serif" font-size="9" fill="#0D47A1" text-anchor="middle" font-style="italic">&#119987; = &#123; X_T1, X_T2, X_LGE, X_cine, X_clinical &#125;</text>
+<line x1="22" y1="193" x2="375" y2="193" stroke="#BBDEFB" stroke-width="0.7"/>
+<text x="26" y="206" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Multi-modal cardiac MRI (T1, T2, LGE, Cine) from 1.5T/3T</text>
+<text x="26" y="218" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; UK Biobank cohort (n&#8776;40,000+), DICOM archive</text>
+<text x="26" y="230" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Structured clinical metadata: age, sex, BMI, comorbidities</text>
+<text x="26" y="242" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Inclusion/exclusion criteria &#183; Ethics approval &#183; QC flags</text>
+<text x="26" y="254" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Patient demographics &#183; Imaging parameters &#183; Labels</text>
+<text x="375" y="288" font-family="Arial,sans-serif" font-size="7" fill="#90A4AE" text-anchor="end" font-style="italic">Stage 1/8</text>
+<!-- STAGE 2: Preprocessing -->
+<rect x="421" y="74" width="369" height="220" rx="7" fill="white" filter="url(#shadow)"/>
+<rect x="421" y="74" width="369" height="33" rx="7" fill="url(#h2)"/>
+<rect x="421" y="92" width="369" height="15" fill="url(#h2)"/>
+<text x="433" y="95" font-family="Arial,sans-serif" font-size="10" fill="white" font-weight="bold">&#9313; PREPROCESSING &amp; STANDARDISATION</text>
+<rect x="433" y="114" width="21" height="18" rx="4" fill="#E1F5FE" stroke="#0277BD" stroke-width="0.8"/>
+<text x="444" y="127" font-family="Arial,sans-serif" font-size="7.5" fill="#01579B" text-anchor="middle" font-weight="bold">QC</text>
+<rect x="481" y="114" width="60" height="18" rx="4" fill="#E1F5FE" stroke="#0277BD" stroke-width="0.8"/>
+<text x="511" y="127" font-family="Arial,sans-serif" font-size="7.5" fill="#01579B" text-anchor="middle" font-weight="bold">Normalise</text>
+<rect x="543" y="114" width="54" height="18" rx="4" fill="#E1F5FE" stroke="#0277BD" stroke-width="0.8"/>
+<text x="570" y="127" font-family="Arial,sans-serif" font-size="7.5" fill="#01579B" text-anchor="middle" font-weight="bold">Register</text>
+<rect x="615" y="114" width="70" height="18" rx="4" fill="#E1F5FE" stroke="#0277BD" stroke-width="0.8"/>
+<text x="650" y="127" font-family="Arial,sans-serif" font-size="7.5" fill="#01579B" text-anchor="middle" font-weight="bold">Motion Cor.</text>
+<rect x="695" y="114" width="48" height="18" rx="4" fill="#E1F5FE" stroke="#0277BD" stroke-width="0.8"/>
+<text x="719" y="127" font-family="Arial,sans-serif" font-size="7.5" fill="#01579B" text-anchor="middle" font-weight="bold">Segment</text>
+<rect x="433" y="139" width="87" height="18" rx="4" fill="#B3E5FC" stroke="#0288D1" stroke-width="0.8"/>
+<text x="476" y="152" font-family="Arial,sans-serif" font-size="7.5" fill="#01579B" text-anchor="middle" font-weight="bold">ROI Extraction</text>
+<rect x="551" y="139" width="82" height="18" rx="4" fill="#B3E5FC" stroke="#0288D1" stroke-width="0.8"/>
+<text x="592" y="152" font-family="Arial,sans-serif" font-size="7.5" fill="#01579B" text-anchor="middle" font-weight="bold">Temporal Sel.</text>
+<rect x="651" y="139" width="92" height="18" rx="4" fill="#B3E5FC" stroke="#0288D1" stroke-width="0.8"/>
+<text x="697" y="152" font-family="Arial,sans-serif" font-size="7.5" fill="#01579B" text-anchor="middle" font-weight="bold">Bias Correction</text>
+<rect x="429" y="164" width="353" height="42" rx="4" fill="#F3F8FF" stroke="#B3C8E8" stroke-width="1"/>
+<text x="605" y="179" font-family="Georgia,serif" font-size="8.5" fill="#0D47A1" text-anchor="middle" font-style="italic">&#119987;' = &#119977;(&#119987;)  &#8212; intensity normalisation</text>
+<text x="605" y="192" font-family="Georgia,serif" font-size="8.5" fill="#0D47A1" text-anchor="middle" font-style="italic">&#119987;_r = &#8475;(&#119987;')  &#8212; spatial registration</text>
+<text x="605" y="201" font-family="Georgia,serif" font-size="8.5" fill="#0D47A1" text-anchor="middle" font-style="italic">&#8499; = &#119982;(&#119987;_r)  &#8212; myocardial segmentation</text>
+<line x1="429" y1="210" x2="782" y2="210" stroke="#BBDEFB" stroke-width="0.7"/>
+<text x="433" y="223" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Bias field correction &#183; z-score intensity standardisation</text>
+<text x="433" y="235" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Rigid + deformable registration across cardiac phases</text>
+<text x="433" y="247" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Myocardial segmentation (LV/RV endo- and epi-cardium)</text>
+<text x="433" y="259" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Slice harmonisation &#183; voxel resampling to 1.25 mm isotropic</text>
+<text x="782" y="288" font-family="Arial,sans-serif" font-size="7" fill="#90A4AE" text-anchor="end" font-style="italic">Stage 2/8</text>
+<!-- STAGE 3: Multi-Branch Feature Extraction -->
+<rect x="828" y="74" width="369" height="220" rx="7" fill="white" filter="url(#shadow)"/>
+<rect x="828" y="74" width="369" height="33" rx="7" fill="url(#h3)"/>
+<rect x="828" y="92" width="369" height="15" fill="url(#h3)"/>
+<text x="840" y="95" font-family="Arial,sans-serif" font-size="10" fill="white" font-weight="bold">&#9314; MULTI-BRANCH FEATURE EXTRACTION</text>
+<rect x="836" y="112" width="85" height="64" rx="4" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1.2"/>
+<text x="878" y="126" font-family="Arial,sans-serif" font-size="7.5" fill="#4A148C" text-anchor="middle" font-weight="bold">CNN Branch</text>
+<text x="878" y="138" font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A" text-anchor="middle">Local spatial</text>
+<text x="878" y="149" font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A" text-anchor="middle">texture</text>
+<text x="878" y="169" font-family="Georgia,serif" font-size="7" fill="#4A148C" text-anchor="middle" font-style="italic">h_cnn = f&#x03B8;(X_r)</text>
+<rect x="925" y="112" width="85" height="64" rx="4" fill="#EDE7F6" stroke="#7B1FA2" stroke-width="1.2"/>
+<text x="967" y="126" font-family="Arial,sans-serif" font-size="7.5" fill="#4A148C" text-anchor="middle" font-weight="bold">ViT Branch</text>
+<text x="967" y="138" font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A" text-anchor="middle">Global structural</text>
+<text x="967" y="149" font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A" text-anchor="middle">dependencies</text>
+<text x="967" y="169" font-family="Georgia,serif" font-size="7" fill="#4A148C" text-anchor="middle" font-style="italic">h_vit = T&#x03C6;(X_r)</text>
+<rect x="1014" y="112" width="85" height="64" rx="4" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1.2"/>
+<text x="1056" y="126" font-family="Arial,sans-serif" font-size="7.5" fill="#4A148C" text-anchor="middle" font-weight="bold">Radiomic</text>
+<text x="1056" y="138" font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A" text-anchor="middle">Handcrafted</text>
+<text x="1056" y="149" font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A" text-anchor="middle">tissue descriptors</text>
+<text x="1056" y="169" font-family="Georgia,serif" font-size="7" fill="#4A148C" text-anchor="middle" font-style="italic">h_rad = r(X_r)</text>
+<rect x="1103" y="112" width="85" height="64" rx="4" fill="#EDE7F6" stroke="#7B1FA2" stroke-width="1.2"/>
+<text x="1145" y="126" font-family="Arial,sans-serif" font-size="7.5" fill="#4A148C" text-anchor="middle" font-weight="bold">Temporal</text>
+<text x="1145" y="138" font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A" text-anchor="middle">Cine MRI</text>
+<text x="1145" y="149" font-family="Arial,sans-serif" font-size="7" fill="#6A1B9A" text-anchor="middle">functional motion</text>
+<text x="1145" y="169" font-family="Georgia,serif" font-size="7" fill="#4A148C" text-anchor="middle" font-style="italic">h_mot = m(X_cine)</text>
+<rect x="836" y="182" width="353" height="18" rx="3" fill="#F3F0FF" stroke="#9C4DA8" stroke-width="1"/>
+<text x="1012" y="194" font-family="Georgia,serif" font-size="8.5" fill="#4A148C" text-anchor="middle" font-style="italic">h = [ h_cnn &#8214; h_vit &#8214; h_rad &#8214; h_mot ] &#8712; &#8477;^(d1+d2+d3+d4)</text>
+<line x1="836" y1="204" x2="1189" y2="204" stroke="#E1BEE7" stroke-width="0.7"/>
+<text x="840" y="217" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; ResNet-50 CNN: local myocardial texture + fibrosis patterns</text>
+<text x="840" y="229" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; ViT-B/16: global long-range cardiac structural relationships</text>
+<text x="840" y="241" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; 107 radiomic features: GLCM, GLRLM, first-order statistics</text>
+<text x="840" y="253" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; LSTM/GRU: temporal cine MRI functional dynamics</text>
+<text x="1189" y="288" font-family="Arial,sans-serif" font-size="7" fill="#90A4AE" text-anchor="end" font-style="italic">Stage 3/8</text>
+<!-- STAGE 4: Multi-Modal Fusion -->
+<rect x="1235" y="74" width="369" height="220" rx="7" fill="white" filter="url(#shadow)"/>
+<rect x="1235" y="74" width="369" height="33" rx="7" fill="url(#h4)"/>
+<rect x="1235" y="92" width="369" height="15" fill="url(#h4)"/>
+<text x="1247" y="95" font-family="Arial,sans-serif" font-size="10" fill="white" font-weight="bold">&#9315; MULTI-MODAL FUSION &amp; EMBEDDING</text>
+<rect x="1243" y="112" width="170" height="24" rx="3" fill="#EDE7F6" stroke="#512DA8" stroke-width="1"/>
+<text x="1328" y="128" font-family="Arial,sans-serif" font-size="8" fill="#311B92" text-anchor="middle" font-weight="bold">Concatenation Fusion</text>
+<rect x="1421" y="112" width="175" height="24" rx="3" fill="#D1C4E9" stroke="#512DA8" stroke-width="1"/>
+<text x="1508" y="122" font-family="Arial,sans-serif" font-size="8" fill="#311B92" text-anchor="middle" font-weight="bold">Cross-Modal Attention</text>
+<text x="1508" y="132" font-family="Arial,sans-serif" font-size="7.5" fill="#4527A0" text-anchor="middle">Q=h_T1 &#183; K,V={h_T2,h_LGE,...}</text>
+<rect x="1243" y="142" width="353" height="20" rx="3" fill="#7E57C2"/>
+<text x="1419" y="156" font-family="Arial,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Shared Latent Embedding  z  &#8712; &#8477;^d</text>
+<rect x="1243" y="168" width="353" height="36" rx="4" fill="#F3F0FF" stroke="#9E88D4" stroke-width="1"/>
+<text x="1419" y="181" font-family="Georgia,serif" font-size="8.5" fill="#311B92" text-anchor="middle" font-style="italic">z = &#119985;( h_T1, h_T2, h_LGE, h_cine, h_clin )</text>
+<text x="1419" y="193" font-family="Georgia,serif" font-size="8.5" fill="#311B92" text-anchor="middle" font-style="italic">z &#8712; &#8477;^d  &#8212; shared cardiac representation space</text>
+<text x="1419" y="200" font-family="Georgia,serif" font-size="8" fill="#4A148C" text-anchor="middle" font-style="italic"></text>
+<line x1="1243" y1="208" x2="1596" y2="208" stroke="#D1C4E9" stroke-width="0.7"/>
+<text x="1247" y="221" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Modality-specific encoders projected to shared dimension</text>
+<text x="1247" y="233" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Cross-modal attention: Q, K, V from different modalities</text>
+<text x="1247" y="245" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Layer normalisation + residual connections per modality</text>
+<text x="1247" y="257" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Joint optimisation of all encoder branches end-to-end</text>
+<text x="1596" y="288" font-family="Arial,sans-serif" font-size="7" fill="#90A4AE" text-anchor="end" font-style="italic">Stage 4/8</text>
+<line x1="383" y1="184" x2="421" y2="184" stroke="#455A64" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="790" y1="184" x2="828" y2="184" stroke="#455A64" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="1197" y1="184" x2="1235" y2="184" stroke="#455A64" stroke-width="2.2" marker-end="url(#arr)"/>
+<!-- Row connector Stage 4 -> Stage 5 -->
+<path d="M 1419 298 L 1419 328 L 198 328 L 198 366"
+      stroke="#455A64" stroke-width="2.2" fill="none" stroke-dasharray="7,3" marker-end="url(#arr)"/>
+<text x="809" y="320" font-family="Arial,sans-serif" font-size="8" fill="#546E7A" text-anchor="middle" font-style="italic">latent embedding z flows to predictive modelling</text>
+<!-- STAGE 5: Predictive Modelling -->
+<rect x="14" y="370" width="369" height="220" rx="7" fill="white" filter="url(#shadow)"/>
+<rect x="14" y="370" width="369" height="33" rx="7" fill="url(#h5)"/>
+<rect x="14" y="388" width="369" height="15" fill="url(#h5)"/>
+<text x="26" y="391" font-family="Arial,sans-serif" font-size="10" fill="white" font-weight="bold">&#9316; DUAL-HEAD PREDICTIVE MODELLING</text>
+<rect x="22" y="408" width="170" height="58" rx="4" fill="#E0F2F1" stroke="#00695C" stroke-width="1.5"/>
+<text x="107" y="423" font-family="Arial,sans-serif" font-size="8" fill="#004D40" text-anchor="middle" font-weight="bold">Classification Head</text>
+<text x="107" y="435" font-family="Arial,sans-serif" font-size="7.5" fill="#00695C" text-anchor="middle">Early abnormality detection</text>
+<text x="107" y="446" font-family="Georgia,serif" font-size="8" fill="#004D40" text-anchor="middle" font-style="italic">&#375;_cls = g1(z) &#8712; {0,1,2}</text>
+<text x="107" y="458" font-family="Arial,sans-serif" font-size="7" fill="#00695C" text-anchor="middle">Normal / Subclinical / Pathol.</text>
+<rect x="200" y="408" width="175" height="58" rx="4" fill="#B2DFDB" stroke="#00796B" stroke-width="1.5"/>
+<text x="287" y="423" font-family="Arial,sans-serif" font-size="8" fill="#004D40" text-anchor="middle" font-weight="bold">Risk Regression Head</text>
+<text x="287" y="435" font-family="Arial,sans-serif" font-size="7.5" fill="#00695C" text-anchor="middle">HF risk score prediction</text>
+<text x="287" y="446" font-family="Georgia,serif" font-size="8" fill="#004D40" text-anchor="middle" font-style="italic">&#375;_risk = g2(z) &#8712; [0,1]</text>
+<text x="287" y="458" font-family="Arial,sans-serif" font-size="7" fill="#00695C" text-anchor="middle">Probabilistic risk score</text>
+<rect x="22" y="472" width="353" height="18" rx="3" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1"/>
+<text x="198" y="485" font-family="Georgia,serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-style="italic">&#8466; = &#955;1 &#183; &#8466;_cls(&#375;_cls, y) + &#955;2 &#183; &#8466;_risk(&#375;_risk, y_risk)</text>
+<line x1="22" y1="494" x2="375" y2="494" stroke="#A5D6A7" stroke-width="0.7"/>
+<text x="26" y="507" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Multi-task joint training with balanced weighted loss</text>
+<text x="26" y="519" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Cross-entropy (cls) &#183; Cox partial likelihood (risk)</text>
+<text x="26" y="531" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Class weighting for imbalanced myocardial abnormalities</text>
+<text x="26" y="543" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Early stopping &#183; LR scheduling &#183; gradient clipping</text>
+<text x="375" y="584" font-family="Arial,sans-serif" font-size="7" fill="#90A4AE" text-anchor="end" font-style="italic">Stage 5/8</text>
+<!-- STAGE 6: Explainability -->
+<rect x="421" y="370" width="369" height="220" rx="7" fill="white" filter="url(#shadow)"/>
+<rect x="421" y="370" width="369" height="33" rx="7" fill="url(#h6)"/>
+<rect x="421" y="388" width="369" height="15" fill="url(#h6)"/>
+<text x="433" y="391" font-family="Arial,sans-serif" font-size="10" fill="white" font-weight="bold">&#9317; EXPLAINABILITY &amp; BIOMARKER DISCOVERY</text>
+<rect x="429" y="408" width="85" height="52" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+<text x="471" y="422" font-family="Arial,sans-serif" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">SHAP</text>
+<text x="471" y="434" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Shapley</text>
+<text x="471" y="445" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">attribution</text>
+<rect x="518" y="408" width="85" height="52" rx="3" fill="#FFE0B2" stroke="#EF6C00" stroke-width="1"/>
+<text x="560" y="422" font-family="Arial,sans-serif" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">Grad-CAM</text>
+<text x="560" y="434" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Spatial</text>
+<text x="560" y="445" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">saliency</text>
+<rect x="607" y="408" width="85" height="52" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+<text x="649" y="422" font-family="Arial,sans-serif" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">Attention</text>
+<text x="649" y="434" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Regional</text>
+<text x="649" y="445" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">heatmap</text>
+<rect x="696" y="408" width="85" height="52" rx="3" fill="#FFE0B2" stroke="#EF6C00" stroke-width="1"/>
+<text x="738" y="422" font-family="Arial,sans-serif" font-size="8" fill="#BF360C" text-anchor="middle" font-weight="bold">Biomarker</text>
+<text x="738" y="434" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">Relevance</text>
+<text x="738" y="445" font-family="Arial,sans-serif" font-size="7" fill="#E65100" text-anchor="middle">scoring</text>
+<!-- heatmap colorbar -->
+<rect x="429" y="466" width="200" height="10" rx="2" fill="url(#heatmap)"/>
+<text x="429" y="486" font-family="Arial,sans-serif" font-size="6.5" fill="#616161">Low relevance</text>
+<text x="609" y="486" font-family="Arial,sans-serif" font-size="6.5" fill="#616161" text-anchor="end">High</text>
+<text x="641" y="478" font-family="Arial,sans-serif" font-size="7.5" fill="#BF360C">Regional myocardial attribution</text>
+<line x1="429" y1="490" x2="782" y2="490" stroke="#FFCC80" stroke-width="0.7"/>
+<text x="433" y="503" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; SHAP values: feature importance for clinical inputs</text>
+<text x="433" y="515" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Grad-CAM: pixel-wise saliency overlaid on MRI</text>
+<text x="433" y="527" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Attention weights &#8594; tissue region biomarker discovery</text>
+<text x="433" y="539" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Interpretable imaging biomarkers beyond black-box AI</text>
+<text x="433" y="551" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Spatial maps aligned with myocardial anatomy</text>
+<text x="782" y="584" font-family="Arial,sans-serif" font-size="7" fill="#90A4AE" text-anchor="end" font-style="italic">Stage 6/8</text>
+<!-- STAGE 7: Validation -->
+<rect x="828" y="370" width="369" height="220" rx="7" fill="white" filter="url(#shadow)"/>
+<rect x="828" y="370" width="369" height="33" rx="7" fill="url(#h7)"/>
+<rect x="828" y="388" width="369" height="15" fill="url(#h7)"/>
+<text x="840" y="391" font-family="Arial,sans-serif" font-size="10" fill="white" font-weight="bold">&#9318; VALIDATION &amp; ROBUSTNESS ASSESSMENT</text>
+<rect x="836" y="408" width="112" height="42" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+<text x="892" y="422" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Internal CV</text>
+<text x="892" y="434" font-family="Arial,sans-serif" font-size="7" fill="#388E3C" text-anchor="middle">5-fold stratified</text>
+<text x="892" y="445" font-family="Arial,sans-serif" font-size="7" fill="#388E3C" text-anchor="middle">cross-validation</text>
+<rect x="956" y="408" width="112" height="42" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+<text x="1012" y="422" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20" text-anchor="middle" font-weight="bold">External Cohort</text>
+<text x="1012" y="434" font-family="Arial,sans-serif" font-size="7" fill="#388E3C" text-anchor="middle">Hold-out test set</text>
+<text x="1012" y="445" font-family="Arial,sans-serif" font-size="7" fill="#388E3C" text-anchor="middle">+ external DB</text>
+<rect x="1076" y="408" width="112" height="42" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+<text x="1132" y="422" font-family="Arial,sans-serif" font-size="7.5" fill="#1B5E20" text-anchor="middle" font-weight="bold">Calibration</text>
+<text x="1132" y="434" font-family="Arial,sans-serif" font-size="7" fill="#388E3C" text-anchor="middle">Platt scaling</text>
+<text x="1132" y="445" font-family="Arial,sans-serif" font-size="7" fill="#388E3C" text-anchor="middle">reliability plot</text>
+<rect x="836" y="456" width="353" height="18" rx="3" fill="#A5D6A7" stroke="#4CAF50" stroke-width="1"/>
+<text x="1012" y="469" font-family="Georgia,serif" font-size="9" fill="#1B5E20" text-anchor="middle" font-style="italic">AUC &#183; F1 &#183; Sensitivity &#183; Specificity &#183; Calibration Error (ECE)</text>
+<line x1="836" y1="478" x2="1189" y2="478" stroke="#A5D6A7" stroke-width="0.7"/>
+<text x="840" y="491" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; McNemar test &#183; DeLong AUC comparison &#183; bootstrapping</text>
+<text x="840" y="503" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Sensitivity analysis by age, sex, scanner, imaging site</text>
+<text x="840" y="515" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Net Reclassification Index (NRI) for clinical utility</text>
+<text x="840" y="527" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Comparison vs. Framingham / established risk scores</text>
+<text x="840" y="539" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Statistical significance: p &lt; 0.05 &#183; 95% CI reported</text>
+<text x="1189" y="584" font-family="Arial,sans-serif" font-size="7" fill="#90A4AE" text-anchor="end" font-style="italic">Stage 7/8</text>
+<!-- STAGE 8: Clinical Output -->
+<rect x="1235" y="370" width="369" height="220" rx="7" fill="white" filter="url(#shadow)"/>
+<rect x="1235" y="370" width="369" height="33" rx="7" fill="url(#h8)"/>
+<rect x="1235" y="388" width="369" height="15" fill="url(#h8)"/>
+<text x="1247" y="391" font-family="Arial,sans-serif" font-size="10" fill="white" font-weight="bold">&#9319; CLINICAL OUTPUT &amp; DECISION SUPPORT</text>
+<rect x="1243" y="408" width="84" height="50" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="1"/>
+<text x="1285" y="424" font-family="Arial,sans-serif" font-size="8" fill="#B71C1C" text-anchor="middle" font-weight="bold">Risk Score</text>
+<rect x="1331" y="408" width="84" height="50" rx="3" fill="#FFCDD2" stroke="#E53935" stroke-width="1"/>
+<text x="1373" y="424" font-family="Arial,sans-serif" font-size="8" fill="#B71C1C" text-anchor="middle" font-weight="bold">Abnormality</text>
+<text x="1373" y="436" font-family="Arial,sans-serif" font-size="8" fill="#B71C1C" text-anchor="middle" font-weight="bold">Heatmap</text>
+<rect x="1419" y="408" width="84" height="50" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="1"/>
+<text x="1461" y="424" font-family="Arial,sans-serif" font-size="8" fill="#B71C1C" text-anchor="middle" font-weight="bold">Risk Strat.</text>
+<rect x="1507" y="408" width="84" height="50" rx="3" fill="#FFCDD2" stroke="#E53935" stroke-width="1"/>
+<text x="1549" y="424" font-family="Arial,sans-serif" font-size="8" fill="#B71C1C" text-anchor="middle" font-weight="bold">Alert</text>
+<text x="1549" y="436" font-family="Arial,sans-serif" font-size="8" fill="#B71C1C" text-anchor="middle" font-weight="bold">Dashboard</text>
+<path d="M 1255 453 A 18 18 0 0 1 1287 453" stroke="#EF5350" stroke-width="3" fill="none"/>
+<text x="1271" y="450" font-family="Arial,sans-serif" font-size="6.5" fill="#C62828" text-anchor="middle">HIGH</text>
+<rect x="1419" y="424" width="54" height="7" rx="1" fill="#EF5350"/>
+<text x="1446" y="431" font-family="Arial,sans-serif" font-size="5.5" fill="white" text-anchor="middle">HIGH</text>
+<rect x="1419" y="433" width="38" height="7" rx="1" fill="#FF9800"/>
+<text x="1438" y="440" font-family="Arial,sans-serif" font-size="5.5" fill="white" text-anchor="middle">MED</text>
+<rect x="1419" y="442" width="22" height="7" rx="1" fill="#4CAF50"/>
+<text x="1430" y="449" font-family="Arial,sans-serif" font-size="5.5" fill="white" text-anchor="middle">LOW</text>
+<rect x="1243" y="464" width="353" height="18" rx="3" fill="#EF5350"/>
+<text x="1419" y="477" font-family="Arial,sans-serif" font-size="8.5" fill="white" text-anchor="middle" font-weight="bold">&#9888; Clinical Decision Support Alert</text>
+<line x1="1243" y1="486" x2="1596" y2="486" stroke="#FFCDD2" stroke-width="0.7"/>
+<text x="1247" y="499" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Early myocardial abnormality detection report</text>
+<text x="1247" y="511" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; HF risk prediction with 95% confidence intervals</text>
+<text x="1247" y="523" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Interpretable imaging biomarker summary report</text>
+<text x="1247" y="535" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Clinician-facing personalised risk stratification</text>
+<text x="1247" y="547" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">&#8226; Streamlit web dashboard for clinical integration</text>
+<text x="1596" y="584" font-family="Arial,sans-serif" font-size="7" fill="#90A4AE" text-anchor="end" font-style="italic">Stage 8/8</text>
+<line x1="383" y1="480" x2="421" y2="480" stroke="#455A64" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="790" y1="480" x2="828" y2="480" stroke="#455A64" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="1197" y1="480" x2="1235" y2="480" stroke="#455A64" stroke-width="2.2" marker-end="url(#arr)"/>
+<!-- Novelty Box -->
+<rect x="14" y="606" width="1592" height="108" rx="9" fill="#FFF5F5"
+      stroke="#E63946" stroke-width="2.5" stroke-dasharray="8,4" filter="url(#glow)"/>
+<text x="32" y="632" font-family="Arial,sans-serif" font-size="18" fill="#E63946">&#9733;</text>
+<text x="56" y="630" font-family="Arial,sans-serif" font-size="11.5" fill="#C1121F" font-weight="bold" letter-spacing="1">NOVELTY AND ORIGINAL CONTRIBUTION &#8212; What is Methodologically New in This Research</text>
+<line x1="56" y1="636" x2="1598" y2="636" stroke="#E6394640" stroke-width="1"/>
+<rect x="20" y="641" width="310" height="64" rx="4" fill="white" stroke="#FFCCD3" stroke-width="1"/>
+<text x="175" y="655" font-family="Arial,sans-serif" font-size="8" fill="#C1121F" text-anchor="middle" font-weight="bold">&#9312; MULTI-MODAL MRI INTEGRATION</text>
+<text x="175" y="668" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">Joint T1, T2, LGE, Cine MRI +</text>
+<text x="175" y="680" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">clinical metadata in one model.</text>
+<text x="175" y="692" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">Cross-modal attention fusion.</text>
+<text x="175" y="704" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">No prior work uses all 4 modalities.</text>
+<rect x="338" y="641" width="310" height="64" rx="4" fill="white" stroke="#FFCCD3" stroke-width="1"/>
+<text x="493" y="655" font-family="Arial,sans-serif" font-size="8" fill="#C1121F" text-anchor="middle" font-weight="bold">&#9313; SHARED LATENT REPRESENTATION</text>
+<text x="493" y="668" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">Unified embedding z combines</text>
+<text x="493" y="680" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">structural and functional cardiac</text>
+<text x="493" y="692" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">information across all modalities.</text>
+<text x="493" y="704" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">Enables cross-modal synergy.</text>
+<rect x="656" y="641" width="310" height="64" rx="4" fill="white" stroke="#FFCCD3" stroke-width="1"/>
+<text x="811" y="655" font-family="Arial,sans-serif" font-size="8" fill="#C1121F" text-anchor="middle" font-weight="bold">&#9314; DUAL-HEAD MULTI-TASK MODEL</text>
+<text x="811" y="668" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">Simultaneous abnormality detection</text>
+<text x="811" y="680" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">and HF risk score from one model.</text>
+<text x="811" y="692" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">Joint loss: L=L_cls+L_risk.</text>
+<text x="811" y="704" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">Surpasses single-task baselines.</text>
+<rect x="974" y="641" width="310" height="64" rx="4" fill="white" stroke="#FFCCD3" stroke-width="1"/>
+<text x="1129" y="655" font-family="Arial,sans-serif" font-size="8" fill="#C1121F" text-anchor="middle" font-weight="bold">&#9315; INTERPRETABLE BIOMARKERS</text>
+<text x="1129" y="668" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">SHAP, Grad-CAM, Attention maps</text>
+<text x="1129" y="680" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">identify novel imaging biomarkers.</text>
+<text x="1129" y="692" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">Clinically actionable results.</text>
+<text x="1129" y="704" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">Spatial maps align with anatomy.</text>
+<rect x="1292" y="641" width="310" height="64" rx="4" fill="white" stroke="#FFCCD3" stroke-width="1"/>
+<text x="1447" y="655" font-family="Arial,sans-serif" font-size="8" fill="#C1121F" text-anchor="middle" font-weight="bold">&#9316; PRE-SYMPTOMATIC DETECTION</text>
+<text x="1447" y="668" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">Detects subclinical HF before onset.</text>
+<text x="1447" y="680" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">Validated on UK Biobank (n=40k+).</text>
+<text x="1447" y="692" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">Internal + external cohort validation.</text>
+<text x="1447" y="704" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F" text-anchor="middle">Streamlit clinical deployment.</text>
+<rect x="14" y="724" width="1592" height="42" rx="5" fill="white" stroke="#CFD8DC" stroke-width="1"/>
+<text x="26" y="739" font-family="Arial,sans-serif" font-size="8" fill="#546E7A" font-weight="bold">LEGEND:</text>
+<rect x="95" y="729" width="13" height="13" rx="2" fill="#1565C0"/>
+<text x="112" y="740" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">Data Input</text>
+<rect x="182.0" y="729" width="13" height="13" rx="2" fill="#0277BD"/>
+<text x="199.0" y="740" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">Preprocessing</text>
+<rect x="285.5" y="729" width="13" height="13" rx="2" fill="#6A1B9A"/>
+<text x="302.5" y="740" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">Feature Extraction</text>
+<rect x="416.5" y="729" width="13" height="13" rx="2" fill="#4527A0"/>
+<text x="433.5" y="740" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">Fusion</text>
+<rect x="481.5" y="729" width="13" height="13" rx="2" fill="#00695C"/>
+<text x="498.5" y="740" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">Prediction</text>
+<rect x="568.5" y="729" width="13" height="13" rx="2" fill="#E65100"/>
+<text x="585.5" y="740" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">Explainability</text>
+<rect x="677.5" y="729" width="13" height="13" rx="2" fill="#1B5E20"/>
+<text x="694.5" y="740" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">Validation</text>
+<rect x="764.5" y="729" width="13" height="13" rx="2" fill="#B71C1C"/>
+<text x="781.5" y="740" font-family="Arial,sans-serif" font-size="7.5" fill="#37474F">Clinical Output</text>
+<text x="1608" y="739" font-family="Arial,sans-serif" font-size="7" fill="#90A4AE" text-anchor="end">Stage: 8 | Flow: Left-to-Right | UCL PhD Proposal</text>
+<text x="26" y="757" font-family="Georgia,serif" font-size="7.5" fill="#546E7A" font-style="italic">Notation: &#119987; = input data &#183; z = shared latent embedding &#183; &#375; = model output &#183; &#8466; = joint loss &#183; &#8499; = myocardial mask &#183; &#952;, &#966; = learnable parameters &#183; &#8477;^d = d-dim real vector space</text>
+<rect x="0" y="852" width="1620" height="38" fill="#0D2137"/>
+<text x="810" y="868" font-family="Arial,sans-serif" font-size="9" fill="#7AAACF" text-anchor="middle">Technical Methodology Pipeline &#183; AI-Driven Cardiovascular Disease Detection &#183; Abu Sufian &#183; Chang'an University</text>
+<text x="810" y="882" font-family="Arial,sans-serif" font-size="8" fill="#4A7BA7" text-anchor="middle">&#169; 2025&#8211;2026 Research in Progress &#183; Multi-Modal Cardiac MRI Analysis &#183; Explainable AI &#183; Clinical Translation</text>
+</svg>
