@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PhD Theoretical Framework — AI-Enabled Cardiac MRI Analysis</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      background: #f5f7fa;
+      color: #222;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      width: 100%;
+      background: #1B4F72;
+      color: #fff;
+      text-align: center;
+      padding: 22px 20px 16px;
+    }
+
+    header h1 {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 4px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    header p {
+      font-size: 0.88rem;
+      opacity: 0.82;
+    }
+
+    .toolbar {
+      display: flex;
+      gap: 14px;
+      margin: 22px 0 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 22px;
+      border: none;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      font-family: inherit;
+      cursor: pointer;
+      transition: opacity 0.15s, transform 0.1s;
+    }
+
+    .btn:hover { opacity: 0.88; transform: translateY(-1px); }
+    .btn:active { transform: translateY(0); }
+
+    .btn-download { background: #2E86AB; color: #fff; }
+    .btn-print    { background: #6C3483; color: #fff; }
+
+    .diagram-wrapper {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+      padding: 10px;
+      max-width: 1420px;
+      width: 100%;
+      margin: 0 16px 24px;
+      overflow-x: auto;
+    }
+
+    .diagram-wrapper object,
+    .diagram-wrapper img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    footer {
+      width: 100%;
+      background: #f0f0f0;
+      border-top: 1px solid #ddd;
+      text-align: center;
+      padding: 14px 20px;
+      font-size: 0.82rem;
+      color: #666;
+      margin-top: auto;
+    }
+
+    footer a { color: #2E86AB; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    @media print {
+      body { background: #fff; }
+      .toolbar, header, footer { display: none; }
+      .diagram-wrapper { box-shadow: none; border-radius: 0; padding: 0; margin: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PhD Theoretical Framework — AI-Enabled Cardiac MRI Analysis</h1>
+    <p>AI-Enabled Multi-Modal Cardiac MRI Analysis for Early Detection and Risk Prediction of Heart Failure</p>
+  </header>
+
+  <div class="toolbar">
+    <button class="btn btn-download" onclick="downloadSVG()">⬇ Download SVG</button>
+    <button class="btn btn-print" onclick="window.print()">🖨 Print / Save as PDF</button>
+  </div>
+
+  <div class="diagram-wrapper">
+    <object
+      type="image/svg+xml"
+      data="theoretical_framework_v2.svg"
+      width="1400"
+      height="1600"
+      aria-label="Theoretical Framework Diagram for PhD Research Proposal">
+      <!-- Fallback for browsers that cannot render SVG via <object> -->
+      <img
+        src="theoretical_framework_v2.svg"
+        alt="Theoretical Framework — AI-Enabled Multi-Modal Cardiac MRI Analysis"
+        width="1400"
+        height="1600"
+        style="max-width:100%;height:auto;"/>
+    </object>
+  </div>
+
+  <footer>
+    <p>
+      UCL PhD Research Proposal — Cardiovascular Science &nbsp;|&nbsp;
+      <a href="https://github.com/datascintist-abusufian/AI-Models-for-Early-Cardiovascular-Diseases-Detection-"
+         target="_blank" rel="noopener noreferrer">
+        View on GitHub
+      </a>
+    </p>
+  </footer>
+
+  <script>
+    function downloadSVG() {
+      var link = document.createElement('a');
+      link.href = 'theoretical_framework_v2.svg';
+      link.download = 'theoretical_framework_v2.svg';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+  </script>
+
+</body>
+</html>
