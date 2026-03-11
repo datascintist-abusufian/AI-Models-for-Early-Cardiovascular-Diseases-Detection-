@@ -63,5 +63,5 @@ This project is licensed under the MIT License.
 
 📧 Contact
 
-If you have any questions or collaboration opportunities, please reach out to 2017901635@chd.edu.cn.
+If you have any questions or collaboration opportunities, please reach out to m.sufian@uel.ac.uk
 
