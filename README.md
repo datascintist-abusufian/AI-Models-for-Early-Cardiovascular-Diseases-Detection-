@@ -63,6 +63,10 @@ Expertise in AI for healthcare, cardiovascular imaging, and disease prediction.
 
 A professional academic Gantt chart for the 4-year PhD research project "AI-Enabled Multi-Modal Cardiac MRI Analysis for Early Detection and Risk Prediction of Heart Failure" is available in `figures/phd_gantt_chart.svg`. Open `figures/phd_gantt_chart_viewer.html` in a browser to view it.
 
+### Theoretical Framework Diagram
+
+A publication-quality theoretical framework block diagram for the PhD research proposal "AI-Enabled Multi-Modal Cardiac MRI Analysis for Early Detection and Risk Prediction of Heart Failure" is available in `figures/theoretical_framework.svg`. The diagram illustrates the conceptual flow from multi-modal cardiac MRI input through AI representation learning, feature fusion, explainability, and clinical output, including the core novel contribution. Open `figures/theoretical_framework_viewer.html` in a browser to view it.
+
 📝 License
 
 This project is licensed under the MIT License.
