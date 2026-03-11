@@ -196,7 +196,7 @@
   <circle cx="745" cy="577" r="4" fill="#E64A19" opacity="0.7"/>
   <circle cx="730" cy="618" r="3" fill="#43A047" opacity="0.7"/>
   <circle cx="665" cy="590" r="3" fill="#A23B72" opacity="0.6"/>
-  <circle cx="755" cy="608" r="4" fill="#37474F" opacity=" 0.6"/>
+  <circle cx="755" cy="608" r="4" fill="#37474F" opacity="0.6"/>
 
   <!-- Dashed arrows from input circles to central oval -->
   <line x1="312" y1="593" x2="600" y2="580" stroke="#A23B72" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-sm)"/>
