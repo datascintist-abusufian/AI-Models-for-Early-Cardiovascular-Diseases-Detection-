@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1900" width="1600" height="1900" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,1 L9,5 L0,9 Z" fill="#555"/>
+  </marker>
+  <marker id="arr_gold" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,1 L9,5 L0,9 Z" fill="#D4AC0D"/>
+  </marker>
+  <marker id="arr_red" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,1 L9,5 L0,9 Z" fill="#C0392B"/>
+  </marker>
+  <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+    <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.10"/>
+  </filter>
+  <filter id="glow" x="-6%" y="-6%" width="112%" height="112%">
+    <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#E67E22" flood-opacity="0.30"/>
+  </filter>
+  <radialGradient id="t1grad" cx="50%" cy="50%" r="50%">
+    <stop offset="0%"   stop-color="#FFE0B2"/>
+    <stop offset="45%"  stop-color="#FF8F00"/>
+    <stop offset="70%"  stop-color="#E65100"/>
+    <stop offset="100%" stop-color="#1a1a2e"/>
+  </radialGradient>
+  <radialGradient id="t2grad" cx="50%" cy="50%" r="50%">
+    <stop offset="0%"   stop-color="#B3E5FC"/>
+    <stop offset="40%"  stop-color="#0288D1"/>
+    <stop offset="65%"  stop-color="#01579B"/>
+    <stop offset="100%" stop-color="#1a1a2e"/>
+  </radialGradient>
+  <radialGradient id="lgegrad" cx="50%" cy="50%" r="50%">
+    <stop offset="0%"   stop-color="#111"/>
+    <stop offset="55%"  stop-color="#1a1a1a"/>
+    <stop offset="100%" stop-color="#0d0d0d"/>
+  </radialGradient>
+  <radialGradient id="cinegrad" cx="50%" cy="50%" r="50%">
+    <stop offset="0%"   stop-color="#E8F5E9"/>
+    <stop offset="45%"  stop-color="#43A047"/>
+    <stop offset="70%"  stop-color="#1B5E20"/>
+    <stop offset="100%" stop-color="#1a1a2e"/>
+  </radialGradient>
+</defs>
+<rect width="1600" height="1900" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="72" fill="#1A237E"/>
+<text x="800" y="32" text-anchor="middle" font-size="22" font-weight="bold" fill="#FFFFFF">Theoretical Framework</text>
+<text x="800" y="58" text-anchor="middle" font-size="13" font-weight="normal" fill="#90CAF9">AI-Enabled Multi-Modal Cardiac MRI Analysis for Early Detection and Risk Prediction of Heart Failure</text>
+<line x1="40" y1="76" x2="1560" y2="76" stroke="#2980B9" stroke-width="2"/>
+<rect x="50" y="90" width="1500" height="140" rx="10" fill="#EBF5FB" stroke="#2980B9" stroke-width="2" filter="url(#shadow)"/>
+<rect x="50" y="90" width="1500" height="34" rx="10" fill="#2980B9" clip-path="inset(0 0 17px 0)"/>
+<rect x="50" y="107" width="1500" height="17" fill="#2980B9"/>
+<text x="800" y="117" text-anchor="middle" font-size="14" font-weight="bold" fill="white" letter-spacing="0.5">①  Clinical Problem Context</text>
+<path d="M98,162 C98,156 90,148 84,148 C76,148 72,158 72,165 C72,174 78,182 98,194 C118,182 124,174 124,165 C124,158 120,148 112,148 C106,148 98,156 98,162 Z" fill="#E53935" stroke="#B71C1C" stroke-width="1.5"/>
+<text x="140" y="152" font-size="11.5" fill="#34495e">•  Heart failure develops gradually</text>
+<text x="140" y="170" font-size="11.5" fill="#34495e">•  Early myocardial changes remain clinically silent</text>
+<text x="140" y="188" font-size="11.5" fill="#34495e">•  Conventional assessment misses subtle pre-clinical anomalies</text>
+<text x="530" y="145" text-anchor="start" font-size="12" font-weight="bold" fill="#2980B9">Clinical Gap:</text>
+<text x="530" y="164" font-size="11" fill="#34495e">•  Late diagnosis → poor prognosis</text>
+<text x="530" y="182" font-size="11" fill="#34495e">•  No validated pre-symptomatic biomarkers</text>
+<text x="530" y="200" font-size="11" fill="#34495e">•  High heterogeneity of myocardial pathology</text>
+<text x="1000" y="145" text-anchor="start" font-size="12" font-weight="bold" fill="#2980B9">Research Imperative:</text>
+<text x="1000" y="164" font-size="11" fill="#34495e">•  Multi-modal tissue characterisation</text>
+<text x="1000" y="182" font-size="11" fill="#34495e">•  AI-driven early detection</text>
+<text x="1000" y="200" font-size="11" fill="#34495e">•  Interpretable risk prediction</text>
+<line x1="800" y1="232" x2="800" y2="258" stroke="#555" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="812" y="249" text-anchor="start" font-size="10" font-weight="normal" fill="#666">Data Acquisition</text>
+<rect x="50" y="262" width="1500" height="220" rx="10" fill="#EAF4FC" stroke="#1A5276" stroke-width="2" filter="url(#shadow)"/>
+<rect x="50" y="262" width="1500" height="34" rx="10" fill="#1A5276" clip-path="inset(0 0 17px 0)"/>
+<rect x="50" y="279" width="1500" height="17" fill="#1A5276"/>
+<text x="800" y="289" text-anchor="middle" font-size="14" font-weight="bold" fill="white" letter-spacing="0.5">②  Input Imaging Theory — Multi-Modal Cardiac MRI</text>
+<circle cx="160" cy="342" r="52" fill="#111" stroke="#333" stroke-width="1"/>
+<circle cx="160" cy="342" r="48" fill="url(#t1grad)"/>
+<circle cx="160" cy="342" r="35" fill="none" stroke="#FFD740" stroke-width="5.8" opacity="0.85"/>
+<ellipse cx="157.1" cy="339.1" rx="14.4" ry="16.8" fill="#000" opacity="0.55"/>
+<text x="160" y="406" text-anchor="middle" font-size="10" font-weight="bold" fill="#34495e">T1 Mapping</text>
+<circle cx="370" cy="342" r="52" fill="#111" stroke="#333" stroke-width="1"/>
+<circle cx="370" cy="342" r="48" fill="url(#t2grad)"/>
+<circle cx="370" cy="342" r="35" fill="none" stroke="#FFD740" stroke-width="5.8" opacity="0.85"/>
+<ellipse cx="367.1" cy="339.1" rx="14.4" ry="16.8" fill="#000" opacity="0.55"/>
+<text x="370" y="406" text-anchor="middle" font-size="10" font-weight="bold" fill="#34495e">T2 Mapping</text>
+<circle cx="580" cy="342" r="52" fill="#111" stroke="#333" stroke-width="1"/>
+<circle cx="580" cy="342" r="48" fill="url(#lgegrad)"/>
+<circle cx="563.2" cy="354.0" r="5.8" fill="#FFFFFF" opacity="0.90"/>
+<circle cx="594.4" cy="334.8" r="5.8" fill="#FFFFFF" opacity="0.90"/>
+<circle cx="584.8" cy="361.2" r="5.8" fill="#FFFFFF" opacity="0.90"/>
+<circle cx="580" cy="342" r="18.2" fill="#222"/>
+<text x="580" y="406" text-anchor="middle" font-size="10" font-weight="bold" fill="#34495e">LGE</text>
+<circle cx="790" cy="342" r="52" fill="#111" stroke="#333" stroke-width="1"/>
+<circle cx="790" cy="342" r="48" fill="url(#cinegrad)"/>
+<ellipse cx="787.1" cy="339.1" rx="14.4" ry="16.8" fill="#000" opacity="0.55"/>
+<text x="790" y="406" text-anchor="middle" font-size="10" font-weight="bold" fill="#34495e">Cine MRI</text>
+<text x="160" y="418" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#5D6D7E" font-style="italic">Fibrosis / ECV</text>
+<text x="370" y="418" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#5D6D7E" font-style="italic">Oedema / Inflammation</text>
+<text x="580" y="418" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#5D6D7E" font-style="italic">Scar Tissue</text>
+<text x="790" y="418" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#5D6D7E" font-style="italic">Systolic Function</text>
+<text x="920" y="312" text-anchor="start" font-size="12" font-weight="bold" fill="#1A5276">Multi-modal Input Space:</text>
+<text x="920" y="334" text-anchor="start" font-size="13" font-weight="normal" fill="#1A237E" font-style="italic">X = { x_T1, x_T2, x_LGE, x_cine }</text>
+<text x="920" y="356" text-anchor="start" font-size="11" font-weight="normal" fill="#34495e">Each modality captures distinct latent tissue properties:</text>
+<text x="920" y="374" font-size="11" fill="#34495e"><tspan font-weight="bold" fill="#1A5276">T1 mapping</tspan>  —  extracellular volume (ECV), diffuse fibrosis</text>
+<text x="920" y="396" font-size="11" fill="#34495e"><tspan font-weight="bold" fill="#1A5276">T2 mapping</tspan>  —  myocardial oedema, inflammation</text>
+<text x="920" y="418" font-size="11" fill="#34495e"><tspan font-weight="bold" fill="#1A5276">LGE</tspan>  —  focal scar, replacement fibrosis</text>
+<text x="920" y="440" font-size="11" fill="#34495e"><tspan font-weight="bold" fill="#1A5276">Cine MRI</tspan>  —  ventricular volumes, EF, strain</text>
+<line x1="880" y1="284" x2="880" y2="425" stroke="#1A5276" stroke-width="2" stroke-dasharray="6,3"/>
+<line x1="880" y1="354" x2="912" y2="354" stroke="#1A5276" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="800" y1="484" x2="800" y2="510" stroke="#555" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="812" y="501" text-anchor="start" font-size="10" font-weight="normal" fill="#666">Representation Learning</text>
+<rect x="50" y="514" width="1500" height="150" rx="10" fill="#EDF9F0" stroke="#1E8449" stroke-width="2" filter="url(#shadow)"/>
+<rect x="50" y="514" width="1500" height="34" rx="10" fill="#1E8449" clip-path="inset(0 0 17px 0)"/>
+<rect x="50" y="531" width="1500" height="17" fill="#1E8449"/>
+<text x="800" y="541" text-anchor="middle" font-size="14" font-weight="bold" fill="white" letter-spacing="0.5">③  Latent Myocardial Representation Space</text>
+<text x="110" y="569" text-anchor="start" font-size="11" font-weight="bold" fill="#34495e">Multi-modal input space:</text>
+<text x="110" y="588" text-anchor="start" font-size="12" font-weight="normal" fill="#1A237E" font-style="italic">X = { x_T1, x_T2, x_LGE, x_cine }  ∈  ℝ^(H×W×C)</text>
+<text x="110" y="614" text-anchor="start" font-size="11" font-weight="bold" fill="#34495e">Shared latent representation:</text>
+<text x="110" y="633" text-anchor="start" font-size="12" font-weight="normal" fill="#1A237E" font-style="italic">φ(X) : ℝ^(H×W×C)  →  ℝ^d          (embedding space)</text>
+<rect x="972" y="589" width="56" height="28" rx="5" fill="#FF6F00" opacity="0.85"/>
+<text x="1000" y="606" text-anchor="middle" font-size="10" font-weight="bold" fill="white">T1</text>
+<line x1="1000" y1="619" x2="1180" y2="662" stroke="#1E8449" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr)"/>
+<rect x="1082" y="589" width="56" height="28" rx="5" fill="#0277BD" opacity="0.85"/>
+<text x="1110" y="606" text-anchor="middle" font-size="10" font-weight="bold" fill="white">T2</text>
+<line x1="1110" y1="619" x2="1180" y2="662" stroke="#1E8449" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr)"/>
+<rect x="1192" y="589" width="56" height="28" rx="5" fill="#1B1B1B" opacity="0.85"/>
+<text x="1220" y="606" text-anchor="middle" font-size="10" font-weight="bold" fill="white">LGE</text>
+<line x1="1220" y1="619" x2="1180" y2="662" stroke="#1E8449" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr)"/>
+<rect x="1302" y="589" width="56" height="28" rx="5" fill="#2E7D32" opacity="0.85"/>
+<text x="1330" y="606" text-anchor="middle" font-size="10" font-weight="bold" fill="white">Cine</text>
+<line x1="1330" y1="619" x2="1180" y2="662" stroke="#1E8449" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr)"/>
+<ellipse cx="1180" cy="689" rx="70" ry="30" fill="#1E8449" opacity="0.15" stroke="#1E8449" stroke-width="2"/>
+<text x="1155" y="694" text-anchor="middle" font-size="11" font-weight="normal" fill="#1A237E" font-style="italic">φ(X)  ∈ ℝ^d</text>
+<line x1="800" y1="666" x2="800" y2="692" stroke="#555" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="812" y="683" text-anchor="start" font-size="10" font-weight="normal" fill="#666">Deep Learning Pipeline</text>
+<rect x="50" y="696" width="1500" height="260" rx="10" fill="#F5EEF8" stroke="#7D3C98" stroke-width="2" filter="url(#shadow)"/>
+<rect x="50" y="696" width="1500" height="34" rx="10" fill="#7D3C98" clip-path="inset(0 0 17px 0)"/>
+<rect x="50" y="713" width="1500" height="17" fill="#7D3C98"/>
+<text x="800" y="723" text-anchor="middle" font-size="14" font-weight="bold" fill="white" letter-spacing="0.5">④  AI Learning Theory</text>
+<rect x="140" y="744" width="380" height="160" rx="8" fill="#F3E5F5" stroke="#7D3C98" stroke-width="2"/>
+<text x="330" y="764" text-anchor="middle" font-size="13" font-weight="bold" fill="#7D3C98">CNN Encoder</text>
+<text x="330" y="782" text-anchor="middle" font-size="10" font-weight="normal" fill="#34495e" font-style="italic">Local spatial feature extraction</text>
+<rect x="160" y="797" width="52" height="55" rx="4" fill="#AB47BC" opacity="0.75"/>
+<text x="186" y="863" text-anchor="middle" font-size="8" font-weight="normal" fill="#7D3C98">Conv1</text>
+<rect x="238" y="794" width="52" height="61" rx="4" fill="#9C27B0" opacity="0.75"/>
+<text x="264" y="866" text-anchor="middle" font-size="8" font-weight="normal" fill="#7D3C98">Conv2</text>
+<rect x="316" y="791" width="52" height="67" rx="4" fill="#7B1FA2" opacity="0.75"/>
+<text x="342" y="869" text-anchor="middle" font-size="8" font-weight="normal" fill="#7D3C98">Conv3</text>
+<rect x="394" y="788" width="52" height="73" rx="4" fill="#6A1B9A" opacity="0.75"/>
+<text x="420" y="872" text-anchor="middle" font-size="8" font-weight="normal" fill="#7D3C98">Conv4</text>
+<text x="330" y="892" text-anchor="middle" font-size="10" font-weight="normal" fill="#1A237E" font-style="italic">f_θ(x)  — spatial feature encoder</text>
+<rect x="610" y="744" width="380" height="160" rx="8" fill="#E8EAF6" stroke="#3949AB" stroke-width="2"/>
+<text x="800" y="764" text-anchor="middle" font-size="13" font-weight="bold" fill="#3949AB">Vision Transformer (ViT)</text>
+<text x="800" y="782" text-anchor="middle" font-size="10" font-weight="normal" fill="#34495e" font-style="italic">Long-range structural dependency modelling</text>
+<rect x="628" y="796" width="38" height="38" rx="3" fill="rgb(120,140,230)" stroke="#3949AB" stroke-width="0.5" opacity="0.80"/>
+<rect x="628" y="838" width="38" height="38" rx="3" fill="rgb(144,164,230)" stroke="#3949AB" stroke-width="0.5" opacity="0.80"/>
+<rect x="670" y="796" width="38" height="38" rx="3" fill="rgb(128,148,230)" stroke="#3949AB" stroke-width="0.5" opacity="0.80"/>
+<rect x="670" y="838" width="38" height="38" rx="3" fill="rgb(152,172,230)" stroke="#3949AB" stroke-width="0.5" opacity="0.80"/>
+<rect x="712" y="796" width="38" height="38" rx="3" fill="rgb(136,156,230)" stroke="#3949AB" stroke-width="0.5" opacity="0.80"/>
+<rect x="712" y="838" width="38" height="38" rx="3" fill="rgb(160,180,230)" stroke="#3949AB" stroke-width="0.5" opacity="0.80"/>
+<rect x="754" y="796" width="38" height="38" rx="3" fill="rgb(144,164,230)" stroke="#3949AB" stroke-width="0.5" opacity="0.80"/>
+<rect x="754" y="838" width="38" height="38" rx="3" fill="rgb(168,188,230)" stroke="#3949AB" stroke-width="0.5" opacity="0.80"/>
+<rect x="796" y="796" width="38" height="38" rx="3" fill="rgb(152,172,230)" stroke="#3949AB" stroke-width="0.5" opacity="0.80"/>
+<rect x="796" y="838" width="38" height="38" rx="3" fill="rgb(176,196,230)" stroke="#3949AB" stroke-width="0.5" opacity="0.80"/>
+<rect x="838" y="796" width="38" height="38" rx="3" fill="rgb(160,180,230)" stroke="#3949AB" stroke-width="0.5" opacity="0.80"/>
+<rect x="838" y="838" width="38" height="38" rx="3" fill="rgb(184,204,230)" stroke="#3949AB" stroke-width="0.5" opacity="0.80"/>
+<text x="800" y="892" text-anchor="middle" font-size="10" font-weight="normal" fill="#1A237E" font-style="italic">Attn(Q,K,V)  — multi-head self-attention</text>
+<rect x="1080" y="744" width="380" height="160" rx="8" fill="#E3F2FD" stroke="#1565C0" stroke-width="2"/>
+<text x="1270" y="764" text-anchor="middle" font-size="13" font-weight="bold" fill="#1565C0">Multi-Modal Fusion</text>
+<text x="1270" y="782" text-anchor="middle" font-size="10" font-weight="normal" fill="#34495e" font-style="italic">Cross-modal feature integration</text>
+<rect x="1140" y="796" width="260" height="22" rx="4" fill="#90CAF9" opacity="0.80"/>
+<text x="1270" y="811" text-anchor="middle" font-size="9" font-weight="normal" fill="#1565C0">f_1 ⊕ f_2 ⊕ ... ⊕ f_n</text>
+<rect x="1180" y="824" width="180" height="22" rx="4" fill="#42A5F5" opacity="0.80"/>
+<text x="1270" y="839" text-anchor="middle" font-size="9" font-weight="normal" fill="white">Cross-Attention / Concat</text>
+<rect x="1220" y="852" width="100" height="22" rx="4" fill="#1565C0" opacity="0.80"/>
+<text x="1270" y="867" text-anchor="middle" font-size="9" font-weight="normal" fill="white">z  ∈ ℝ^d</text>
+<text x="1270" y="892" text-anchor="middle" font-size="10" font-weight="normal" fill="#1A237E" font-style="italic">z = ℱ(f₁, f₂, ..., fₙ)  — fused representation</text>
+<line x1="524" y1="824" x2="606" y2="824" stroke="#7D3C98" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="994" y1="824" x2="1076" y2="824" stroke="#3949AB" stroke-width="2" marker-end="url(#arr)"/>
+<text x="800" y="936" text-anchor="middle" font-size="13" font-weight="bold" fill="#1A237E">Risk predictor:   ŷ = g_ω(z)    — output probability / risk score</text>
+<line x1="800" y1="958" x2="800" y2="984" stroke="#555" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="812" y="975" text-anchor="start" font-size="10" font-weight="normal" fill="#666">Model Interpretation</text>
+<rect x="50" y="988" width="1500" height="185" rx="10" fill="#FEF9E7" stroke="#D4AC0D" stroke-width="2" filter="url(#shadow)"/>
+<rect x="50" y="988" width="1500" height="34" rx="10" fill="#D4AC0D" clip-path="inset(0 0 17px 0)"/>
+<rect x="50" y="1005" width="1500" height="17" fill="#D4AC0D"/>
+<text x="800" y="1015" text-anchor="middle" font-size="14" font-weight="bold" fill="white" letter-spacing="0.5">⑤  Explainability &amp; Imaging Biomarker Discovery</text>
+<rect x="200" y="1032" width="300" height="115" rx="7" fill="#FFF8E1" stroke="#F9A825" stroke-width="2"/>
+<text x="350" y="1054" text-anchor="middle" font-size="12" font-weight="bold" fill="#F9A825">Grad-CAM</text>
+<line x1="220" y1="1062" x2="480" y2="1062" stroke="#F9A825" stroke-width="0.8" opacity="0.5"/>
+<text x="350" y="1082" text-anchor="middle" font-size="10" font-weight="normal" fill="#34495e" font-style="italic">Spatial saliency maps</text>
+<text x="350" y="1100" text-anchor="middle" font-size="10" font-weight="normal" fill="#34495e" font-style="italic">from gradient flow</text>
+<rect x="650" y="1032" width="300" height="115" rx="7" fill="#FFF3E0" stroke="#E65100" stroke-width="2"/>
+<text x="800" y="1054" text-anchor="middle" font-size="12" font-weight="bold" fill="#E65100">SHAP Analysis</text>
+<line x1="670" y1="1062" x2="930" y2="1062" stroke="#E65100" stroke-width="0.8" opacity="0.5"/>
+<text x="800" y="1082" text-anchor="middle" font-size="10" font-weight="normal" fill="#34495e" font-style="italic">Shapley attribution</text>
+<text x="800" y="1100" text-anchor="middle" font-size="10" font-weight="normal" fill="#34495e" font-style="italic">values per feature</text>
+<rect x="1100" y="1032" width="300" height="115" rx="7" fill="#FFF9C4" stroke="#F57F17" stroke-width="2"/>
+<text x="1250" y="1054" text-anchor="middle" font-size="12" font-weight="bold" fill="#F57F17">Attention Maps</text>
+<line x1="1120" y1="1062" x2="1380" y2="1062" stroke="#F57F17" stroke-width="0.8" opacity="0.5"/>
+<text x="1250" y="1082" text-anchor="middle" font-size="10" font-weight="normal" fill="#34495e" font-style="italic">Transformer patch</text>
+<text x="1250" y="1100" text-anchor="middle" font-size="10" font-weight="normal" fill="#34495e" font-style="italic">attention weights</text>
+<text x="1570" y="1038" text-anchor="start" font-size="12" font-weight="bold" fill="#D4AC0D">Biomarker Discovery Outputs:</text>
+<text x="1570" y="1060" font-size="10.5" fill="#34495e">◆  Saliency:  feature importance maps</text>
+<text x="1570" y="1084" font-size="10.5" fill="#34495e">◆  Attribution:  per-modality contribution scores</text>
+<text x="1570" y="1108" font-size="10.5" fill="#34495e">◆  Biomarker relevance score:  ∂ŷ/∂x_i</text>
+<text x="1570" y="1132" font-size="10.5" fill="#34495e">◆  Imaging biomarker identification</text>
+<line x1="800" y1="1175" x2="800" y2="1201" stroke="#555" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="812" y="1192" text-anchor="start" font-size="10" font-weight="normal" fill="#666">Clinical Inference</text>
+<rect x="50" y="1205" width="1500" height="165" rx="10" fill="#FDEDEC" stroke="#C0392B" stroke-width="2" filter="url(#shadow)"/>
+<rect x="50" y="1205" width="1500" height="34" rx="10" fill="#C0392B" clip-path="inset(0 0 17px 0)"/>
+<rect x="50" y="1222" width="1500" height="17" fill="#C0392B"/>
+<text x="800" y="1232" text-anchor="middle" font-size="14" font-weight="bold" fill="white" letter-spacing="0.5">⑥  Clinical Output &amp; Decision Support</text>
+<rect x="68" y="1247" width="350" height="111" rx="8" fill="#FFEBEE" stroke="#C62828" stroke-width="2"/>
+<rect x="68" y="1247" width="350" height="22" rx="8" fill="#C62828" opacity="0.85"/>
+<rect x="68" y="1261" width="350" height="8" fill="#C62828" opacity="0.85"/>
+<text x="243" y="1281" text-anchor="middle" font-size="11" font-weight="bold" fill="#C62828">Early Myocardial</text>
+<text x="243" y="1297" text-anchor="middle" font-size="11" font-weight="bold" fill="#C62828">Abnormality Detection</text>
+<text x="243" y="1319" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#34495e" font-style="italic">Pre-clinical, asymptomatic</text>
+<text x="243" y="1333" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#34495e" font-style="italic">tissue change identification</text>
+<rect x="432" y="1247" width="350" height="111" rx="8" fill="#FCE4EC" stroke="#880E4F" stroke-width="2"/>
+<rect x="432" y="1247" width="350" height="22" rx="8" fill="#880E4F" opacity="0.85"/>
+<rect x="432" y="1261" width="350" height="8" fill="#880E4F" opacity="0.85"/>
+<text x="607" y="1281" text-anchor="middle" font-size="11" font-weight="bold" fill="#880E4F">Heart Failure</text>
+<text x="607" y="1297" text-anchor="middle" font-size="11" font-weight="bold" fill="#880E4F">Risk Prediction</text>
+<text x="607" y="1319" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#34495e" font-style="italic">Probabilistic risk score</text>
+<text x="607" y="1333" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#34495e" font-style="italic">for 5-year HF onset</text>
+<rect x="796" y="1247" width="350" height="111" rx="8" fill="#FFF3E0" stroke="#BF360C" stroke-width="2"/>
+<rect x="796" y="1247" width="350" height="22" rx="8" fill="#BF360C" opacity="0.85"/>
+<rect x="796" y="1261" width="350" height="8" fill="#BF360C" opacity="0.85"/>
+<text x="971" y="1281" text-anchor="middle" font-size="11" font-weight="bold" fill="#BF360C">Interpretable Clinical</text>
+<text x="971" y="1297" text-anchor="middle" font-size="11" font-weight="bold" fill="#BF360C">Decision Support</text>
+<text x="971" y="1319" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#34495e" font-style="italic">XAI-backed recommendations</text>
+<text x="971" y="1333" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#34495e" font-style="italic">for clinicians</text>
+<rect x="1160" y="1247" width="350" height="111" rx="8" fill="#FFEBEE" stroke="#B71C1C" stroke-width="2"/>
+<rect x="1160" y="1247" width="350" height="22" rx="8" fill="#B71C1C" opacity="0.85"/>
+<rect x="1160" y="1261" width="350" height="8" fill="#B71C1C" opacity="0.85"/>
+<text x="1335" y="1281" text-anchor="middle" font-size="11" font-weight="bold" fill="#B71C1C">Personalised Risk</text>
+<text x="1335" y="1297" text-anchor="middle" font-size="11" font-weight="bold" fill="#B71C1C">Stratification</text>
+<text x="1335" y="1319" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#34495e" font-style="italic">Patient-level risk profile</text>
+<text x="1335" y="1333" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#34495e" font-style="italic">for targeted intervention</text>
+<line x1="800" y1="1374" x2="800" y2="1400" stroke="#555" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="812" y="1392" text-anchor="start" font-size="10" font-weight="normal" fill="#E67E22">Underpins</text>
+<rect x="104" y="1398" width="1392" height="160" rx="16" fill="#FFF9C4" stroke="#E67E22" stroke-width="2" filter="url(#glow)"/>
+<rect x="110" y="1404" width="1380" height="148" rx="12" fill="#FFFDE7" stroke="#E67E22" stroke-width="2" filter="url(#shadow)"/>
+<rect x="110" y="1404" width="1380" height="36" rx="10" fill="#E67E22" clip-path="inset(0 0 18px 0)"/>
+<rect x="110" y="1422" width="1380" height="18" fill="#E67E22"/>
+<text x="800" y="1432" text-anchor="middle" font-size="15" font-weight="bold" fill="white" letter-spacing="0.5">★  Core Novel Contribution</text>
+<rect x="134" y="1446" width="325" height="96" rx="7" fill="white" stroke="#BF360C" stroke-width="2" opacity="0.95"/>
+<rect x="134" y="1446" width="6" height="96" rx="3" fill="#BF360C"/>
+<text x="299" y="1474" text-anchor="middle" font-size="11" font-weight="bold" fill="#BF360C">Integration of multiple</text>
+<text x="299" y="1494" text-anchor="middle" font-size="11" font-weight="normal" fill="#BF360C">cardiac MRI tissue</text>
+<text x="299" y="1514" text-anchor="middle" font-size="11" font-weight="normal" fill="#BF360C">measurements</text>
+<rect x="475" y="1446" width="325" height="96" rx="7" fill="white" stroke="#6A1B9A" stroke-width="2" opacity="0.95"/>
+<rect x="475" y="1446" width="6" height="96" rx="3" fill="#6A1B9A"/>
+<text x="640" y="1474" text-anchor="middle" font-size="11" font-weight="bold" fill="#6A1B9A">Learning of shared</text>
+<text x="640" y="1494" text-anchor="middle" font-size="11" font-weight="normal" fill="#6A1B9A">latent myocardial</text>
+<text x="640" y="1514" text-anchor="middle" font-size="11" font-weight="normal" fill="#6A1B9A">representations</text>
+<rect x="816" y="1446" width="325" height="96" rx="7" fill="white" stroke="#C17900" stroke-width="2" opacity="0.95"/>
+<rect x="816" y="1446" width="6" height="96" rx="3" fill="#C17900"/>
+<text x="981" y="1474" text-anchor="middle" font-size="11" font-weight="bold" fill="#C17900">Interpretable AI</text>
+<text x="981" y="1494" text-anchor="middle" font-size="11" font-weight="normal" fill="#C17900">biomarker discovery</text>
+<text x="981" y="1514" text-anchor="middle" font-size="11" font-weight="normal" fill="#C17900">from imaging data</text>
+<rect x="1157" y="1446" width="325" height="96" rx="7" fill="white" stroke="#1A237E" stroke-width="2" opacity="0.95"/>
+<rect x="1157" y="1446" width="6" height="96" rx="3" fill="#1A237E"/>
+<text x="1322" y="1474" text-anchor="middle" font-size="11" font-weight="bold" fill="#1A237E">Pre-symptomatic</text>
+<text x="1322" y="1494" text-anchor="middle" font-size="11" font-weight="normal" fill="#1A237E">prediction of</text>
+<text x="1322" y="1514" text-anchor="middle" font-size="11" font-weight="normal" fill="#1A237E">heart failure risk</text>
+<line x1="18" y1="100" x2="18" y2="1360" stroke="#2980B9" stroke-width="3" stroke-dasharray="6,4"/>
+<text x="18" y="730" font-size="11" font-weight="bold" fill="#2980B9" transform="rotate(-90,18,730)" text-anchor="middle" letter-spacing="1">THEORETICAL FLOW</text>
+<polygon points="13,112 23,112 18,100" fill="#2980B9"/>
+<polygon points="13,1348 23,1348 18,1360" fill="#2980B9"/>
+<line x1="50" y1="1578" x2="1550" y2="1578" stroke="#ccc" stroke-width="1"/>
+<text x="800" y="1596" text-anchor="middle" font-size="11" font-weight="bold" fill="#555">Figure: Theoretical Framework — AI-Enabled Multi-Modal Cardiac MRI Analysis for HF Risk Prediction</text>
+<text x="800" y="1612" text-anchor="middle" font-size="10" font-weight="normal" fill="#888" font-style="italic">PhD Research Proposal · UCL · Cardiovascular Science &amp; AI</text>
+</svg>
