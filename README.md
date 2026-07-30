@@ -65,3 +65,20 @@ This project is licensed under the MIT License.
 
 If you have any questions or collaboration opportunities, please reach out to m.sufian@uel.ac.uk
 
+---
+
+## Figures
+
+### Theoretical Framework Diagram (v2)
+
+A revised, reviewer-friendly theoretical framework diagram for the PhD research proposal is available in `figures/theoretical_framework_v2.svg`. Open `figures/theoretical_framework_v2_viewer.html` in a browser to view, download, or print.
+
+The diagram illustrates:
+- Clinical motivation for AI-enabled cardiac MRI analysis
+- Multi-modal imaging input (T1, T2, LGE, Cine MRI)
+- Latent myocardial representation learning
+- AI learning framework (CNN + ViT + Fusion)
+- Explainable AI and biomarker discovery
+- Clinical decision support outputs
+- Core novel contribution of the research
+
