@@ -57,6 +57,30 @@ Expertise in AI for healthcare, cardiovascular imaging, and disease prediction.
 	•	Integration with wearable device data.
 	•	Addition of survival analysis models.
 
+📐 Methodology Pipeline Diagram
+
+A publication-quality technical methodology pipeline diagram is included in the `figures/` directory, illustrating the complete 8-stage implementation workflow from multi-modal cardiac MRI acquisition through to validated clinical decision support.
+
+**File:** [`figures/methodology_pipeline.svg`](figures/methodology_pipeline.svg)
+**Viewer:** [`figures/methodology_pipeline_viewer.html`](figures/methodology_pipeline_viewer.html)
+
+### Pipeline Stages (Left-to-Right Flow)
+
+| Stage | Name | Key Technical Content |
+|-------|------|-----------------------|
+| ① | Data Input & Cohort Assembly | T1/T2/LGE/Cine MRI · UK Biobank · Clinical metadata · `𝒳 = {X_T1, X_T2, X_LGE, X_cine, X_clinical}` |
+| ② | Preprocessing & Standardisation | QC · Normalisation · Registration · Motion correction · Myocardial segmentation |
+| ③ | Multi-Branch Feature Extraction | CNN · ViT · Radiomic · Temporal motion branches · `h = [h_cnn ‖ h_vit ‖ h_rad ‖ h_mot]` |
+| ④ | Multi-Modal Fusion & Embedding | Cross-modal attention · Shared latent space · `z = 𝓕(h_T1, h_T2, h_LGE, h_cine, h_clin)` |
+| ⑤ | Dual-Head Predictive Modelling | Classification head (abnormality) + Risk regression head (HF score) · Joint loss `ℒ = λ₁ℒ_cls + λ₂ℒ_risk` |
+| ⑥ | Explainability & Biomarker Discovery | SHAP · Grad-CAM · Attention heatmaps · Regional myocardial attribution maps |
+| ⑦ | Validation & Robustness Assessment | 5-fold CV · External cohort · AUC · F1 · Sensitivity · Specificity · Calibration |
+| ⑧ | Clinical Output & Decision Support | Risk score dashboard · Abnormality heatmap · Risk stratification · Clinical alert system |
+
+The diagram also includes a highlighted **Novelty and Original Contribution** block summarising the five key methodological innovations of this research.
+
+> Diagram dimensions: 1620 × 900 px · Self-contained SVG (no external dependencies) · Suitable for academic publication, PhD thesis, and conference papers.
+
 📝 License
 
 This project is licensed under the MIT License.
