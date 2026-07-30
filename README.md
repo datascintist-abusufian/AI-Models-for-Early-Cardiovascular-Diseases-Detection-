@@ -57,6 +57,22 @@ Expertise in AI for healthcare, cardiovascular imaging, and disease prediction.
 	•	Integration with wearable device data.
 	•	Addition of survival analysis models.
 
+📊 Figures
+
+### PhD Research Gantt Chart
+
+A professional academic Gantt chart for the 4-year PhD research project "AI-Enabled Multi-Modal Cardiac MRI Analysis for Early Detection and Risk Prediction of Heart Failure" is available in `figures/phd_gantt_chart.svg`. Open `figures/phd_gantt_chart_viewer.html` in a browser to view it.
+
+### Theoretical Framework Diagram
+
+A publication-quality theoretical framework block diagram for the PhD research proposal "AI-Enabled Multi-Modal Cardiac MRI Analysis for Early Detection and Risk Prediction of Heart Failure" is available in `figures/theoretical_framework.svg`. The diagram illustrates the conceptual flow from multi-modal cardiac MRI input through AI representation learning, feature fusion, explainability, and clinical output, including the core novel contribution.
+
+**Download / View links:**
+
+- 📥 **[Download SVG (raw)](https://raw.githubusercontent.com/datascintist-abusufian/AI-Models-for-Early-Cardiovascular-Diseases-Detection-/main/figures/theoretical_framework.svg)** — right-click → *Save link as…* to download the file
+- 🔍 **[View on GitHub](https://github.com/datascintist-abusufian/AI-Models-for-Early-Cardiovascular-Diseases-Detection-/blob/main/figures/theoretical_framework.svg)** — preview in browser
+- 🌐 **Interactive viewer** — clone the repository and open `figures/theoretical_framework_viewer.html` locally for the full-page viewer with Download SVG and Print / Save as PDF buttons
+
 📝 License
 
 This project is licensed under the MIT License.

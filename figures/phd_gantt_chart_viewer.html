@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PhD Research Gantt Chart</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f4f6f9;
+      font-family: Helvetica, Arial, sans-serif;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px 16px 40px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      line-height: 1.3;
+      max-width: 860px;
+    }
+
+    header p {
+      margin-top: 6px;
+      font-size: 0.88rem;
+      color: #666;
+    }
+
+    .button-row {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      padding: 9px 22px;
+      border: none;
+      border-radius: 6px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.18s, transform 0.1s;
+    }
+
+    button:active { transform: scale(0.97); }
+
+    .btn-download {
+      background: #2E86AB;
+      color: #fff;
+    }
+    .btn-download:hover { background: #256f8e; }
+
+    .btn-print {
+      background: #444;
+      color: #fff;
+    }
+    .btn-print:hover { background: #222; }
+
+    .chart-wrapper {
+      background: #fff;
+      border: 1px solid #dde2e8;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.09);
+      overflow: auto;
+      max-width: 100%;
+      width: 100%;
+    }
+
+    object.gantt-svg {
+      display: block;
+      width: 100%;
+      min-width: 900px;
+    }
+
+    img.gantt-fallback {
+      display: block;
+      width: 100%;
+      min-width: 900px;
+    }
+
+    footer {
+      margin-top: 22px;
+      font-size: 0.78rem;
+      color: #aaa;
+      text-align: center;
+    }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .button-row { display: none; }
+      header { margin-bottom: 10px; }
+      .chart-wrapper {
+        border: none;
+        box-shadow: none;
+        overflow: visible;
+      }
+      object.gantt-svg { min-width: 0; width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PhD Research Gantt Chart</h1>
+    <p>
+      AI-Enabled Multi-Modal Cardiac MRI Analysis for Early Detection and Risk Prediction of Heart Failure
+    </p>
+  </header>
+
+  <div class="button-row">
+    <button class="btn-download" onclick="downloadSVG()">⬇ Download SVG</button>
+    <button class="btn-print"    onclick="window.print()">🖨 Print / Save as PDF</button>
+  </div>
+
+  <div class="chart-wrapper">
+    <object
+      class="gantt-svg"
+      type="image/svg+xml"
+      data="phd_gantt_chart.svg"
+      aria-label="PhD Research Gantt Chart SVG">
+      <!-- Fallback for browsers that don't support <object> with SVG -->
+      <img
+        class="gantt-fallback"
+        src="phd_gantt_chart.svg"
+        alt="PhD Research Gantt Chart"/>
+    </object>
+  </div>
+
+  <footer>
+    Figures directory &bull; AI Models for Early Cardiovascular Diseases Detection
+  </footer>
+
+  <script>
+    function downloadSVG() {
+      var a = document.createElement('a');
+      a.href = 'phd_gantt_chart.svg';
+      a.download = 'phd_gantt_chart.svg';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+  </script>
+
+</body>
+</html>
