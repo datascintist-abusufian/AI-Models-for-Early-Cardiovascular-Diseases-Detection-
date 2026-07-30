@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cardiomyocyte Ageing — Scientific Infographic</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #ffffff;
+      font-family: Helvetica, Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 24px 16px 40px;
+    }
+
+    header {
+      width: 100%;
+      max-width: 1640px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      color: #1a3a5c;
+      letter-spacing: 0.04em;
+    }
+
+    header p {
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 6px;
+    }
+
+    .figure-container {
+      width: 100%;
+      max-width: 1640px;
+      background: #ffffff;
+      border: 1px solid #dde3ea;
+      border-radius: 10px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px;
+    }
+
+    .figure-container img,
+    .figure-container object,
+    .figure-container embed {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Inline SVG responsive wrapper */
+    .svg-wrapper {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    .svg-wrapper svg {
+      width: 100%;
+      height: auto;
+      min-width: 800px;
+    }
+
+    footer {
+      margin-top: 24px;
+      font-size: 0.78rem;
+      color: #888;
+      text-align: center;
+    }
+
+    footer a {
+      color: #1a6fa8;
+      text-decoration: none;
+    }
+
+    footer a:hover { text-decoration: underline; }
+
+    .controls {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .controls button {
+      padding: 7px 18px;
+      border: 1px solid #1a6fa8;
+      border-radius: 5px;
+      background: #1a6fa8;
+      color: #fff;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .controls button:hover { background: #1a5a8a; }
+    .controls button.secondary {
+      background: #fff;
+      color: #1a6fa8;
+    }
+    .controls button.secondary:hover { background: #e8f4fc; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cardiomyocyte Ageing</h1>
+    <p>Publication-ready scientific infographic comparing young vs. aged cardiomyocytes</p>
+  </header>
+
+  <div class="controls">
+    <button onclick="downloadSVG()">⬇ Download SVG</button>
+    <button class="secondary" onclick="window.print()">🖨 Print / Save as PDF</button>
+  </div>
+
+  <div class="figure-container">
+    <div class="svg-wrapper">
+      <object
+        id="svg-object"
+        type="image/svg+xml"
+        data="cardiomyocyte_ageing.svg"
+        title="Cardiomyocyte Ageing Infographic"
+        aria-label="Scientific infographic showing structural and molecular differences between young and aged cardiomyocytes"
+        style="width:100%; min-height:600px;">
+        <!-- Fallback: embed as img if object unsupported -->
+        <img src="cardiomyocyte_ageing.svg"
+             alt="Cardiomyocyte Ageing Infographic"
+             style="width:100%; height:auto;"/>
+      </object>
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      Source: <a href="https://github.com/datascintist-abusufian/AI-Models-for-Early-Cardiovascular-Diseases-Detection-"
+                 target="_blank" rel="noopener noreferrer">
+        AI Models for Early Cardiovascular Diseases Detection
+      </a>
+      &nbsp;·&nbsp; Figure: <code>figures/cardiomyocyte_ageing.svg</code>
+    </p>
+  </footer>
+
+  <script>
+    function downloadSVG() {
+      const link = document.createElement('a');
+      link.href = 'cardiomyocyte_ageing.svg';
+      link.download = 'cardiomyocyte_ageing.svg';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+  </script>
+
+</body>
+</html>
