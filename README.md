@@ -65,3 +65,16 @@ This project is licensed under the MIT License.
 
 If you have any questions or collaboration opportunities, please reach out to m.sufian@uel.ac.uk
 
+
+
+## 📚 Citation
+
+This application accompanies the following peer-reviewed article. Please cite it if you use the code or the models.
+
+Enhancing clinical validation for early cardiovascular disease prediction through simulation, AI and web technology. *Diagnostics* 2024;14(12):1308. https://doi.org/10.3390/diagnostics14121308
+
+## 🔗 Related projects
+
+Segmentation-quality dashboard: https://github.com/datascintist-abusufian/medical-image-analysis
+
+Cardiac MRI segmentation: https://github.com/datascintist-abusufian/triFuse-pytorch
