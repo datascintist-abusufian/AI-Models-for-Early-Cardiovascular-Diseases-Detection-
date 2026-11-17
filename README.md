@@ -1,6 +1,24 @@
-AI Models for Early Cardiovascular Disease Detection and Mortality Prediction
+# AI Models for Early Cardiovascular Disease Detection and Mortality Prediction
 
 This repository hosts an AI-powered platform for early detection and mortality prediction of cardiovascular diseases. The tool leverages advanced machine learning and deep learning models to improve clinical diagnostics and patient outcomes through timely and accurate predictions.
+
+## At a glance
+
+![ROC curves comparing seven classifiers on the held-out test set](docs/figures/roc_model_comparison.png)
+
+**Figure 1.** ROC curves for seven classifiers on the held-out test set (61 patients) from `heart.csv` (303 patients). Output of `heart disease solution.ipynb`.
+
+| Model | Accuracy | Precision (CVD) | Recall (CVD) | ROC-AUC |
+| :--- | :---: | :---: | :---: | :---: |
+| Logistic regression | **0.87** | 0.86 | **0.91** | 0.90 |
+| XGBoost (default settings) | — | — | — | **0.95** |
+| XGBoost (grid search) | 0.85 | 0.85 | 0.88 | 0.90 |
+| Voting ensemble (XGBoost + RF + LR) | 0.84 | 0.83 | 0.88 | 0.91 |
+| Random forest | 0.84 | — | — | 0.90 |
+| Random forest (randomised search) | — | — | — | 0.90 |
+| Decision tree | 0.84 | — | — | 0.83 |
+
+— = not reported in the notebook run.
 
 Access the live application here: Streamlit App.
 
